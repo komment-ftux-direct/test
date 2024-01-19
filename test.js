@@ -1,12 +1,3 @@
-/**
- * @function calculateLevenshteinDp
- * @description A Dynamic Programming based solution for calculation of the Levenshtein Distance.
- * @param {String} x - Word to be converted.
- * @param {String} y - Desired result after operations.
- * @return {Integer} The Levenshtein distance between x and y.
- * @see [Levenshtein_distance](https://en.wikipedia.org/wiki/Levenshtein_distance)
- */
-
 function minimum(a, b, c) {
   if (a < b && a < c) {
     return a
